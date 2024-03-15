@@ -37,7 +37,6 @@ i.fas.fa-volume {
     top: 25%;
     left: 66%;
     z-index: 100;
-    display: show;
 }
 
 .wrapper {
@@ -70,8 +69,8 @@ i.fas.fa-volume {
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     padding: 0;
     margin : 0;
 }
@@ -88,8 +87,17 @@ i.fas.fa-volume {
     width: auto;
     height: auto;
     margin-top: 50px;
+    margin-left: 50px;
 }
 
+h1 {
+    margin-bottom: 20px;
+    font-family: "Tangerine", serif;
+    margin-left: 30%;
+    line-height: 90%;
+    color: #000;
+    font-size: 36px;
+}
 .parent-container {
     position: absolute;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
@@ -98,15 +106,11 @@ i.fas.fa-volume {
     background-color: aquamarine;
 }
 
-h1, p, .icons {
+p, .icons {
     color: #000;
     font-family: "Verdana";
     margin-left: 30%;
     line-height: 90%;
-}
-
-.h1 {
-    margin-top: 5%;
 }
 
 p {
@@ -126,11 +130,17 @@ p {
 
 .icon-group {
     margin-top: 8px;
-    margin-left: 90px;
+    margin-left: 82px;
+    font-size: 18px;
+    gap: 20px;
 }
 
 #phone-icon {
-    margin-left: 90px;
+    margin-left: 83px;
+}
+
+.icon-container {
+    margin-left: 54px;
 }
 
 .parent-container .icons span,
@@ -150,7 +160,7 @@ p {
     height: 35px;
     width: 35px;
     padding: 5px;
-    top: 40px;
+    top: 25px;
     left: 29%;
     display: inline-block;
     border: 2px solid #000;
@@ -159,7 +169,7 @@ p {
     text-align: center;
     cursor: pointer;
     transition: all .5s ease;
-    line-height: 35px; 
+    line-height: 25px; 
 }
 
 .parent-container.icon-box i {
@@ -173,4 +183,110 @@ p {
 
 .icon-box i{
     margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .parent-container {
+        width: 300px;
+        height: 350px;
+    }
+
+    .MrFresh {
+        top: 10px;
+        left: 10px;
+        width: 50px;
+        height: 50px;
+    }
+
+    i.fas.fa-volume {
+        font-size: 30px;
+        position: absolute;
+        top: 22%;
+        left: 85%;
+        z-index: 100;
+    }
+
+    h1 {
+        margin-top: 100px;
+        font-family: "Tangerine", serif;
+        margin-left: 15%;
+        line-height: 50%;
+        color: #000;
+        font-size: 36px;
+    }
+
+    p {
+        color: #000;
+        font-family: "Verdana";
+        margin-left: 15%;
+        line-height: 50%;
+    }
+    
+    p {
+        font-size: 12px;
+        padding-bottom: 15px;
+        width: 35%;
+        border-bottom: 2px solid #000;
+    }
+    
+    .bold {
+        font-weight: bold
+    }
+    
+    .icons {
+        margin-top: 25px;
+    }
+    
+    .icon-group {
+        margin-top: 8px;
+        margin-left: 18px;
+        font-size: 12px;
+    }
+    
+    #phone-icon {
+        margin-left: 18px;
+    }
+    
+    .parent-container .icons span,
+    .parent-container .icons a {
+        font-size: 12px;
+        text-decoration: none;
+    } 
+    
+    .parent-container .icons a:hover {
+        color: #3f3f3f;
+    }
+    
+    .parent-container .icon-box {
+        position: relative;
+        color: #000;
+        font-size: 11px;
+        height: 25px;
+        width: 25px;
+        padding: 3px;
+        top: 50px;
+        left: 10%;
+        display: inline-block;
+        border: 2px solid #000;
+        margin: 5px;
+        margin-left: 0px;
+        text-align: center;
+        cursor: pointer;
+        transition: all .5s ease;
+        line-height: 15px; 
+    }
+    
+    .parent-container.icon-box i {
+        justify-content: center;
+    }
+    
+    .parent-container .icon-box:hover {
+        box-shadow: inset 0 50px 0 0 #000;
+        color: #fff;
+    }
+    
+    .icon-box i{
+        margin-top: 5px;
+    }
 }
