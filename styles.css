@@ -32,7 +32,7 @@ body {
 }
 
 i.fas.fa-volume {
-    font-size: 50px;
+    font-size: 40px;
     top: 25%; 
     right: 29%; 
 }
@@ -182,7 +182,7 @@ p {
     margin-top: 5px;
 }
 
-@media screen and (min-width: 1470px)  and (max-width: 1813px) {
+@media screen and (min-width: 769px)  and (max-width: 1470px) {
     i.fas.fa-volume {
         position: absolute;
         font-size: 30px;
