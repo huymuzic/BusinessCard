@@ -203,7 +203,7 @@ p {
         font-size: 120px;
         position: absolute; 
         top: 26%;
-        left: 29%;
+        left: 33%;
         z-index: 100;
     }
     
@@ -243,8 +243,8 @@ p {
     #crown { 
         font-size: 70px;
         position: absolute; 
-        top: 33%;
-        left: 8%;
+        top: 34%;
+        left: 11%;
         z-index: 100;
     }
 
@@ -297,7 +297,7 @@ p {
     }
     
     .icon-container {
-        margin-left: 110px;
+        margin-left: 112px;
     }
 
     .parent-container .icon-box {
