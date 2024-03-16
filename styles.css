@@ -34,8 +34,8 @@ body {
 i.fas.fa-volume {
     font-size: 50px;
     position: absolute;
-    top: 32%; 
-    right: 35%; 
+    top: 30%; 
+    right: 32%; 
     z-index: 100;
 }
 
@@ -202,8 +202,8 @@ p {
     i.fas.fa-volume {
         font-size: 30px;
         position: absolute;
-        top: 22%;
-        right: 10%;
+        top: 24%;
+        right: 12%;
         z-index: 100;
     }
 
