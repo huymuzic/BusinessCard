@@ -60,10 +60,10 @@ body {
 
 .MrFresh {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 150px;
-    height: 150px;
+    top: 170px;
+    left: 52px;
+    width: 130px;
+    height: 130px;
     padding: 0;
     margin : 0;
 }
@@ -184,6 +184,14 @@ p {
         font-size: 30px;
         top: 30.5%;
         right: 30.5%;
+        z-index: 100;
+    }
+
+    #crown { 
+        font-size: 120px;
+        position: absolute; 
+        top: 32%;
+        left: 37%;
         z-index: 100;
     }
 }
