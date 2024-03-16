@@ -202,10 +202,38 @@ p {
     #crown { 
         font-size: 120px;
         position: absolute; 
-        top: 26%;
-        left: 32%;
+        top: 27%;
+        left: 33%;
         z-index: 100;
     }
+
+    .parent-container .icon-box {
+        position: relative;
+        color: #000;
+        font-size: 14px;
+        height: 35px;
+        width: 35px;
+        padding: 5px;
+        top: 25px;
+        left: 31%;
+        display: inline-block;
+        border: 2px solid #000;
+        margin: 5px;
+        margin-left: 0px;
+        text-align: center;
+        cursor: pointer;
+        transition: all .5s ease;
+        line-height: 25px; 
+    }
+
+    .container {
+        margin-left: 90px;
+    }
+
+    .icon-container {
+        margin-left: 80px;
+    }
+    
     
 }
 
