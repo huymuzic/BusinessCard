@@ -60,7 +60,7 @@ body {
 i.fas.fa-volume {
     position: absolute;
     z-index: 100;
-    font-size: 40px;
+    font-size: 50px;
     top: 25%; 
     right: 29%; 
 }  
@@ -182,16 +182,6 @@ p {
 
 .icon-box i{
     margin-top: 5px;
-}
-
-@media screen and (min-width: 769px)  and (max-width: 1470px) {
-    i.fas.fa-volume {
-        position: absolute;
-        font-size: 30px;
-        top: 30.5%;
-        right: 30.5%;
-        z-index: 100;
-    }
 }
 
 @media screen and (max-width: 768px) {
