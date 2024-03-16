@@ -201,7 +201,6 @@ p {
 @media screen and (max-width: 768px) {
     
     body {
-        max-height: 80vh;
         overflow-y: hidden;
     }
 
