@@ -87,7 +87,7 @@ i.fas.fa-volume {
     width: auto;
     height: auto;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 h1 {
@@ -130,17 +130,16 @@ p {
 
 .icon-group {
     margin-top: 8px;
-    margin-left: 82px;
+    margin-left: 78px;
     font-size: 18px;
-    gap: 20px;
 }
 
 #phone-icon {
-    margin-left: 83px;
+    margin-left: 79px;
 }
 
 .icon-container {
-    margin-left: 54px;
+    margin-left: 70px;
 }
 
 .parent-container .icons span,
@@ -161,7 +160,7 @@ p {
     width: 35px;
     padding: 5px;
     top: 25px;
-    left: 29%;
+    left: 31%;
     display: inline-block;
     border: 2px solid #000;
     margin: 5px;
