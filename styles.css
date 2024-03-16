@@ -202,8 +202,8 @@ p {
     #crown { 
         font-size: 120px;
         position: absolute; 
-        top: 32%;
-        left: 37%;
+        top: 26%;
+        left: 29%;
         z-index: 100;
     }
     
@@ -226,8 +226,8 @@ p {
     }
 
     .MrFresh {
-        top: 180px;
-        left: 35px;
+        top: 190px;
+        left: 30px;
         width: 75px;
         height: 75px;
     }
@@ -236,15 +236,15 @@ p {
         position: absolute;
         font-size: 30px;
         top: 20%;
-        right: 2%;
+        right: 2%;  
         z-index: 100;
     }
 
     #crown { 
         font-size: 70px;
         position: absolute; 
-        top: 32%;
-        left: 6%;
+        top: 33%;
+        left: 8%;
         z-index: 100;
     }
 
