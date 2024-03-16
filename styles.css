@@ -31,12 +31,6 @@ body {
     }
 }
 
-i.fas.fa-volume {
-    font-size: 40px;
-    top: 25%; 
-    right: 29%; 
-}
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -62,6 +56,14 @@ i.fas.fa-volume {
       filter: hue-rotate(360deg);
     }
   }
+
+i.fas.fa-volume {
+    position: absolute;
+    z-index: 100;
+    font-size: 40px;
+    top: 25%; 
+    right: 29%; 
+}  
 
 .MrFresh {
     position: absolute;
