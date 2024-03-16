@@ -203,7 +203,7 @@ p {
         font-size: 120px;
         position: absolute; 
         top: 27%;
-        left: 33%;
+        left: 31%;
         z-index: 100;
     }
 
@@ -227,13 +227,22 @@ p {
     }
 
     .container {
-        margin-left: 90px;
+        margin-left: 95px;
     }
 
     .icon-container {
         margin-left: 80px;
     }
     
+    .icon-group {
+        margin-top: 8px;
+        margin-left: 82px;
+        font-size: 18px;
+    }
+    
+    #phone-icon {
+        margin-left: 82px;
+    }
     
 }
 
