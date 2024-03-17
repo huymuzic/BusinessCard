@@ -251,7 +251,7 @@ p {
     }
 
     .icon-container {
-        margin-left: 100px;
+        margin-left: 90px;
     }
     
     .icon-group {
@@ -283,7 +283,7 @@ p {
     }
 
     .MrFresh {
-        top: 175px;
+        top: 170px;
         left: 28px;
         width: 85px;
         height: 85px;
@@ -293,7 +293,7 @@ p {
         position: absolute;
         font-size: 30px;
         top: 24%;
-        right: 8%;  
+        right: 7%;  
         z-index: 100;
     }
 
