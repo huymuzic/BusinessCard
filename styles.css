@@ -203,8 +203,16 @@ p {
         font-size: 120px;
         position: absolute; 
         top: 27%;
-        left: 32%;
+        left: 33%;
         z-index: 100;
+    }
+
+    .MrFresh {
+    position: absolute;
+    top: 48.6%;
+    left: 12%;
+    width: 130px;
+    height: 130px;
     }
 
     .parent-container .icon-box {
@@ -215,7 +223,7 @@ p {
         width: 35px;
         padding: 5px;
         top: 25px;
-        left: 38%;
+        left: 35%;
         display: inline-block;
         border: 2px solid #000;
         margin: 5px;
@@ -227,7 +235,7 @@ p {
     }
 
     h1 {
-        margin-top: 65px;
+        margin-top: 12%;
         margin-left: 35%;
         line-height: 70%;
     }
@@ -283,7 +291,7 @@ p {
     }
 
     .MrFresh {
-        top: 170px;
+        top: 175px;
         left: 28px;
         width: 85px;
         height: 85px;
@@ -300,7 +308,7 @@ p {
     #crown { 
         font-size: 75px;
         position: absolute; 
-        top: 33%;
+        top: 34%;
         left: 12%;
         z-index: 100;
     }
