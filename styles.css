@@ -196,14 +196,14 @@ p {
         z-index: 100;
         font-size: 30px;
         top: 23%; 
-        right: 29%; 
+        right: 28%; 
     }  
 
     #crown { 
         font-size: 120px;
         position: absolute; 
         top: 27%;
-        left: 31%;
+        left: 32%;
         z-index: 100;
     }
 
@@ -242,6 +242,26 @@ p {
     
     #phone-icon {
         margin-left: 82px;
+    }
+
+    h1 {
+        margin-top: 90px;
+        margin-left: 15%;
+        line-height: 70%;
+    }
+
+    p, .icons {
+        color: #000;
+        font-family: "Verdana";
+        margin-left: 35%;
+        line-height: 90%;
+    }
+    
+    p {
+        font-size: 16px;
+        padding-bottom: 15px;
+        width: 50%;
+        border-bottom: 2px solid #000;
     }
     
 }
