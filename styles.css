@@ -215,7 +215,7 @@ p {
         width: 35px;
         padding: 5px;
         top: 25px;
-        left: 31%;
+        left: 34%;
         display: inline-block;
         border: 2px solid #000;
         margin: 5px;
@@ -251,17 +251,17 @@ p {
     }
 
     .icon-container {
-        margin-left: 85px;
+        margin-left: 80px;
     }
     
     .icon-group {
         margin-top: 8px;
-        margin-left: 84px;
+        margin-left: 86px;
         font-size: 18px;
     }
     
     #phone-icon {
-        margin-left: 84px;
+        margin-left: 86px;
     }
     
 }
