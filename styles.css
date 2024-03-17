@@ -177,19 +177,7 @@ p {
     margin-top: 5px;
 }
 
-@media screen and (min-width: 1361px)  and (max-width: 1470px) {
-
-    i.fas.fa-volume {
-        position: absolute;
-        font-size: 30px;
-        top: 30.5%;
-        right: 30.5%;
-        z-index: 100;
-    }
-
-}
-
-@media screen and (min-width: 769px)  and (max-width: 1360px) {
+@media screen and (min-width: 769px)  and (max-width: 1470px) {
 
     i.fas.fa-volume {
         position: absolute;
@@ -208,11 +196,11 @@ p {
     }
 
     .MrFresh {
-    position: absolute;
-    top: 48.6%;
-    left: 12%;
-    width: 130px;
-    height: 130px;
+        position: absolute;
+        top: 48.6%;
+        left: 12%;
+        width: 130px;
+        height: 130px;
     }
 
     .parent-container .icon-box {
