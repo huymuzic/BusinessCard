@@ -200,28 +200,29 @@
     </div>
 </div>
     <script>
-
+        
     var isPlaying = false;
     var intervalId;
+    var volumeIcon = document.querySelector(".fas.fa-volume");
+    volumeIcon.classList.add("fa-volume-slash");
 
     function toggleAudio() {
         var audio = document.getElementById("myAudio");
-        var volumeIcon = document.querySelector(".fas.fa-volume");
         var image = document.querySelector(".MrFresh");
 
         if (!isPlaying) {
             audio.play();
             isPlaying = true;
-            volumeIcon.classList.add("active");
+            volumeIcon.classList.remove("fa-volume-slash"); // Remove slash
             intervalId = setInterval(function() {
                 image.classList.toggle("zoomIn");
             }, 200); 
         } else {
             audio.pause();
             isPlaying = false;
-            volumeIcon.classList.remove("active");
             clearInterval(intervalId);
             image.classList.remove("zoomIn");
+            volumeIcon.classList.add("fa-volume-slash"); // Add slash
         }
     }
     
